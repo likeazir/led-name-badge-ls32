@@ -74,6 +74,12 @@ To reuse the venv again at a later point:
 
     sudo dnf install hidapi python3-hidapi python3-pillow python3-pyusb
 
+### Using on NixOS:
+    
+The included shell.nix should work with
+
+    nix-shell
+
 ### Manual link the HID API lib for some Linuxes
 
 For some distributions there is a discrepancy in where pyhidapi searches for the
